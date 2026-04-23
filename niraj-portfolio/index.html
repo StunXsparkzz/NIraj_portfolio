@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Niraj Chiwande — Full Stack Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- Custom cursor -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-trail" id="cursorTrail"></div>
+
+  <!-- Nav -->
+  <nav id="navbar">
+    <div class="nav-logo">NC<span class="dot">.</span></div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-toggle" id="navToggle">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <div class="orb orb1"></div>
+      <div class="orb orb2"></div>
+      <div class="grid-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-tag">Available for Internship &amp; Opportunities</div>
+      <h1 class="hero-name">
+        <span class="line" data-text="Niraj">Niraj</span>
+        <span class="line accent" data-text="Chiwande">Chiwande</span>
+      </h1>
+      <p class="hero-role"><span class="role-text">Full Stack Developer</span></p>
+      <p class="hero-desc">MCA Student • MERN Stack • Building things that matter</p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn-primary">View My Work</a>
+        <a href="#contact" class="btn-ghost">Get In Touch</a>
+      </div>
+    </div>
+    <div class="scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="section-tag">01 — About</div>
+      <div class="about-grid">
+        <div class="about-left">
+          <h2 class="section-title">Who I Am</h2>
+          <div class="about-card">
+            <p>A motivated and passionate <strong>MCA student</strong> with a strong interest in full stack development, seeking an opportunity to gain valuable hands-on experience, enhance technical skills and grow as a software professional.</p>
+            <p>I love turning ideas into real, working applications — from frontend interfaces that feel great to use, to backend systems that hold everything together.</p>
+            <div class="about-stats">
+              <div class="stat">
+                <span class="stat-num">2+</span>
+                <span class="stat-label">Projects Built</span>
+              </div>
+              <div class="stat">
+                <span class="stat-num">5+</span>
+                <span class="stat-label">Technologies</span>
+              </div>
+              <div class="stat">
+                <span class="stat-num">MCA</span>
+                <span class="stat-label">Student</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="about-right">
+          <div class="avatar-wrap">
+            <div class="avatar-inner">
+              <div class="avatar-initials">NC</div>
+            </div>
+            <div class="avatar-ring"></div>
+            <div class="avatar-ring ring2"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="skills section" id="skills">
+    <div class="container">
+      <div class="section-tag">02 — Skills</div>
+      <h2 class="section-title">Technical Skills</h2>
+      <div class="skills-grid">
+
+        <div class="skill-card" data-category="Languages">
+          <div class="skill-icon">{'}'</div>
+          <h3>Languages</h3>
+          <div class="skill-tags">
+            <span>C</span><span>Python</span><span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+        </div>
+
+        <div class="skill-card" data-category="Web">
+          <div class="skill-icon">⚛</div>
+          <h3>Web Technologies</h3>
+          <div class="skill-tags">
+            <span>ReactJS</span><span>NodeJS</span><span>ExpressJS</span>
+          </div>
+        </div>
+
+        <div class="skill-card" data-category="Database">
+          <div class="skill-icon">◈</div>
+          <h3>Databases</h3>
+          <div class="skill-tags">
+            <span>SQL</span><span>MongoDB</span>
+          </div>
+        </div>
+
+        <div class="skill-card" data-category="Tools">
+          <div class="skill-icon">⌘</div>
+          <h3>Tools & OS</h3>
+          <div class="skill-tags">
+            <span>GitHub</span><span>Claude AI</span><span>Windows</span><span>Ubuntu</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="projects section" id="projects">
+    <div class="container">
+      <div class="section-tag">03 — Projects</div>
+      <h2 class="section-title">What I've Built</h2>
+      <div class="projects-list">
+
+        <div class="project-card">
+          <div class="project-number">01</div>
+          <div class="project-info">
+            <div class="project-header">
+              <h3>Dice Game Application</h3>
+              <div class="project-links">
+                <a href="#" class="proj-link">GitHub ↗</a>
+              </div>
+            </div>
+            <p>An interactive Dice Game built with ReactJS featuring dynamic state management to simulate dice rolls and display real-time results. Focused on user engagement and smooth interactivity.</p>
+            <div class="project-meta">
+              <span class="meta-item">👤 Solo Project</span>
+              <span class="meta-item">🎓 Mentor: Prashant Dumbhere</span>
+            </div>
+            <div class="project-stack">
+              <span>ReactJS</span><span>JavaScript</span><span>HTML</span><span>CSS</span>
+            </div>
+          </div>
+          <div class="project-glow"></div>
+        </div>
+
+        <div class="project-card featured">
+          <div class="project-number">02</div>
+          <div class="project-info">
+            <div class="project-header">
+              <h3>Expense Tracker Application</h3>
+              <div class="project-links">
+                <a href="#" class="proj-link">GitHub ↗</a>
+              </div>
+            </div>
+            <p>A full-stack MERN application to manage daily income and expenses. Features CRUD operations, category-wise tracking, real-time data updates, and basic analytics — all backed by MongoDB for secure storage.</p>
+            <div class="project-meta">
+              <span class="meta-item">👥 Team of 2</span>
+              <span class="meta-item">🎓 Mentor: Sagar Nichal</span>
+            </div>
+            <div class="project-stack">
+              <span>ReactJS</span><span>NodeJS</span><span>ExpressJS</span><span>MongoDB</span><span>JavaScript</span>
+            </div>
+          </div>
+          <div class="project-badge">MERN Stack</div>
+          <div class="project-glow"></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="section-tag">04 — Contact</div>
+      <h2 class="section-title">Let's Connect</h2>
+      <div class="contact-wrap">
+        <div class="contact-left">
+          <p>Open to internship opportunities, collaborations, and interesting projects. Let's build something great together.</p>
+          <div class="contact-links">
+            <a href="mailto:niraj@email.com" class="contact-item">
+              <span class="contact-icon">✉</span>
+              <span>niraj@email.com</span>
+              <span class="arrow">→</span>
+            </a>
+            <a href="https://github.com/" target="_blank" class="contact-item">
+              <span class="contact-icon">⌥</span>
+              <span>GitHub</span>
+              <span class="arrow">→</span>
+            </a>
+            <a href="https://linkedin.com/" target="_blank" class="contact-item">
+              <span class="contact-icon">◈</span>
+              <span>LinkedIn</span>
+              <span class="arrow">→</span>
+            </a>
+          </div>
+        </div>
+        <div class="contact-right">
+          <div class="contact-card">
+            <div class="availability-dot"></div>
+            <p class="avail-text">Currently Available</p>
+            <p class="avail-sub">for internships &amp; projects</p>
+            <a href="mailto:niraj@email.com" class="btn-primary full-width">Send a Message</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <span class="footer-logo">NC<span class="dot">.</span></span>
+        <span class="footer-copy">© 2025 Niraj Chiwande. All rights reserved.</span>
+        <span class="footer-made">Made with ♥ &amp; lots of ☕</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
